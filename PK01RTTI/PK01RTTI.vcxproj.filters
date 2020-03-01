@@ -21,6 +21,9 @@
     <ClCompile Include="Farm.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="CustomCastService.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Animal.h">
@@ -36,6 +39,12 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="AnimalSpecies.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomCastService.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Labrador.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

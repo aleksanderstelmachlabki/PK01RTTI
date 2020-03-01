@@ -1,5 +1,5 @@
 ﻿  Farm.cpp
-  main.cpp
-  Generating Code...
-D:\Studia\[SEM_4]\PK01RTTI\PK01RTTI\Farm.cpp(16,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+D:\Studia\[SEM_4]\PK01RTTI\PK01RTTI\Farm.cpp(80,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+D:\Studia\[SEM_4]\PK01RTTI\PK01RTTI\Farm.cpp(96,20): warning C4018: '<': signed/unsigned mismatch
+D:\Studia\[SEM_4]\PK01RTTI\PK01RTTI\Farm.cpp(112,20): warning C4018: '<': signed/unsigned mismatch
   PK01RTTI.vcxproj -> D:\Studia\[SEM_4]\PK01RTTI\Debug\PK01RTTI.exe

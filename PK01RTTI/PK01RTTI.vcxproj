@@ -123,6 +123,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="CustomCastService.cpp" />
     <ClCompile Include="Farm.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
@@ -130,8 +131,10 @@
     <ClInclude Include="Animal.h" />
     <ClInclude Include="AnimalSpecies.h" />
     <ClInclude Include="Cow.h" />
+    <ClInclude Include="CustomCastService.h" />
     <ClInclude Include="Dog.h" />
     <ClInclude Include="Farm.h" />
+    <ClInclude Include="Labrador.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
