@@ -1,2 +1,5 @@
-﻿  main.cpp
+﻿  Farm.cpp
+  main.cpp
+  Generating Code...
+D:\Studia\[SEM_4]\PK01RTTI\PK01RTTI\Farm.cpp(16,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
   PK01RTTI.vcxproj -> D:\Studia\[SEM_4]\PK01RTTI\Debug\PK01RTTI.exe
