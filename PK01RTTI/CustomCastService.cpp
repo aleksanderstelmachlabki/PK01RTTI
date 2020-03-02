@@ -6,6 +6,21 @@ template<typename DestinationType, typename SourceType>
 DestinationType* CustomCastService::custom_dynamic_cast(SourceType* source)
 {
 
-	return typeid(*source) == typeid(DestinationType) ? static_cast<DestinationType*>(source) : nullptr;
+	DestinationType* result = nullptr;
+	
+	try
+	{
+	
+		result = typeid(*source) == typeid(DestinationType) ? static_cast<DestinationType*>(source) : nullptr;
+	
+	}
+	catch (std::bad_typeid & e)
+	{
+	
+		std::cerr << e.what() << std::endl;
+	
+	}
+	
+	return result;
 
 }

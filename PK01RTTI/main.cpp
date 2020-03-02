@@ -1,11 +1,9 @@
 #include <iostream>
 #include "Farm.h"
+#include "CustomCastService.h"
 
 int main()
 {
-
-	Farm farm(10000);
-	farm.testCastTime();
 
 	system("pause");
 	return 0;
